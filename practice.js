@@ -3,7 +3,9 @@ const max_of_three = (a, b, c) =>{
     return(Math.max(a, b, c));
 }
 
-console.log(max_of_three(100, 503, 199));
+console.log(max_of_three(1,0,1));
+console.log(max_of_three(0,-10,-20));
+console.log(max_of_three(1000,510,440));
 //*******************************
 
 
@@ -34,6 +36,7 @@ const first_half = (word) => {
     }
 }
 
-console.log(first_half("java"));
+console.log(first_half("Python"));
+console.log(first_half("JavaScript"));
 console.log(first_half("PHP"));
 //******************************
